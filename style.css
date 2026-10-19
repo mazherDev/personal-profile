@@ -1,0 +1,100 @@
+/* General Page Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card Container Layout */
+.profile-card {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #2c3e50;
+}
+
+/* Header Styling */
+header h1 {
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #16a085;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Skills List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+/* Contact Link Styling */
+.contact a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+/* Profile Image Styling */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #16a085;
+}
+/* Responsive Design for Smaller Screens */
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
